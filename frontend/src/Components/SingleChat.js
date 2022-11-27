@@ -29,7 +29,7 @@ import animationData from "../animations/typing.json";
 import SendIcon from "@mui/icons-material/Send";
 
 import io from "socket.io-client";
-const ENDPOINT = "https://arena-chat-app.herokuapp.com/";
+const ENDPOINT = "https://arenaapp.herokuapp.com/";
 let socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
